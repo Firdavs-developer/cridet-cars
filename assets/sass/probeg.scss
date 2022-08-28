@@ -1,0 +1,108 @@
+.probeg{
+    margin-top: 40px;
+    .taraf{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cartalar{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        .carta{
+            position: relative;
+            width: 350px;
+            border: 1px solid #E5E5E5;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: .5s;
+
+            .pdn{
+                padding: 0 15px;
+
+                h5{
+                    font-size: 18px;
+                }
+    
+                p{
+                    margin: 0;
+                }
+    
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                }
+    
+                .mrg{
+                    margin-bottom: 10px;
+                }
+            }
+
+            .butt{
+                margin-top: 10px;
+                text-decoration: none;
+                color: #0088CF;
+                border: 1px solid #0088CF;
+                width: 100%;
+                display: inline-block;
+                text-align: center;
+                padding: 8px;
+                transition: .3s;
+                border-radius: 5px;
+            }
+
+            .butt:hover{
+                background-color: #0088CF;
+                color: #fff;
+            }
+
+            .chapda{
+                position: absolute;
+                top: 0;
+                left: -100%;
+                z-index: 999;
+                transition: .5s;
+                a{
+                    text-decoration: none;
+                    padding: 8px;
+                    text-align: center;
+                    background: #FCEC4FC4;
+                    margin: 4px 0;
+                    display: inline-block;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .carta:hover{
+            .chapda{
+                left: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .probeg{
+        .cartalar{
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+
+            .carta{
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .probeg{
+        .taraf{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}

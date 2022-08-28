@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+img {
+  width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, ul, li {
+  margin: 0;
+  padding: 0;
+  color: inherit !important;
+}
+
+input {
+  outline: none;
+}
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- <div class="alert alert-dark text-body alert-dismissible fade show text-center" role="alert">
+        Спецпредложение: купи авто по цене и получи дубликаты госномеров в подарок!
+        <button type="button" class="btn-close text-center" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div> -->
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="./assets/media/logo.png" alt="logo"></a>
+                <div>
+                    <p class="fw-bold sze">Аренда автомобилей <br> с выкупом №1 на Юге <br> России </p>
+                    <p class="kic">Выгодные и честные условия</p>
+                </div>
+            </div>
+            <input type="checkbox" id="check">
+            <div class="bor">
+                <a class="kat" href="#"><i class="fa-solid fa-location-dot"></i> Ставрополь ул. Доваторцев, 21</a><br>
+                <a class="ran" href="#">Выбрать город</a>
+            </div>
+            <div class="bor">
+                <a class="kat" href="tel:"><i class="fa-solid fa-phone"></i> 8 (962) 495-55-54</a><br>
+                <a class="ran" href="#">Заказать звонок</a>
+            </div>
+            <div class="yoq">
+                <a href="#"><i class="fa-solid fa-location-dot fa-2x"></i></a>
+            </div>
+            <div class="yoq">
+                <a href="#"><i class="fa-solid fa-phone fa-2x"></i></a>
+            </div>
+            <label class="open" for="check">
+                <i class="fa-solid fa-bars-staggered fa-2x"></i>
+            </label>
+            
+            
+            <div class="ul">
+                <div class="drop">
+                    <label class="close" for="check">
+                        <i class="fa-solid fa-xmark fa-2x"></i>
+                    </label>
+                    <div class="bir">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle" href="./index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Каталог автомобилей
+                            </a>
+                          
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="./index.html">Новые авто</a></li>
+                              <li><a class="dropdown-item" href="./index.html">Авто с пробегом</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ikki">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle" href="./page2.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Варианты покупки
+                            </a>
+                          
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="./page2.html">Аренда с выкупом</a></li>
+                              <li><a class="dropdown-item" href="./page2.html">Рассрочка</a></li>
+                              <li><a class="dropdown-item" href="./page2.html">Наличные</a></li>
+                              <li><a class="dropdown-item" href="./page2.html">В кредит</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="uch">
+                        <a href="./page3.html">Дубликаты госномеров</a>
+                    </div>
+                    <div class="tort">
+                        <a href="./page4.html">Истории выкупа</a>
+                    </div>
+                    <div class="besh">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                О компании
+                            </a>
+                          
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Вакансии</a></li>
+                              <li><a class="dropdown-item" href="#">Команда</a></li>
+                              <li><a class="dropdown-item" href="#">Новости</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="olti">
+                        <a href="#">Контакты</a>
+                    </div>
+                    <div class="yetti">
+                        <a href="#"><i class="fa-solid fa-user"></i> Личный кабинет</a>
+                    </div>
+                    <div class="bor">
+                        <a class="kat" href="#"><i class="fa-solid fa-location-dot"></i> Ставрополь ул. Доваторцев, 21</a>
+                        <a class="ran" href="#">Выбрать город</a>
+                    </div>
+                    <div class="bor">
+                        <a class="kat" href="tel:"><i class="fa-solid fa-phone"></i> 8 (962) 495-55-54</a>
+                        <a class="ran" href="#">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+    </div>
+    <div class="svet">
+        <div class="container">
+            <div class="drop">
+                <div class="bir">
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="./index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Каталог автомобилей
+                        </a>
+                      
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./index.html">Новые авто</a></li>
+                          <li><a class="dropdown-item" href="./index.html">Авто с пробегом</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ikki">
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="./page2.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Варианты покупки
+                        </a>
+                      
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./page2.html">Аренда с выкупом</a></li>
+                          <li><a class="dropdown-item" href="./page2.html">Рассрочка</a></li>
+                          <li><a class="dropdown-item" href="./page2.html">Наличные</a></li>
+                          <li><a class="dropdown-item" href="./page2.html">В кредит</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uch">
+                    <a href="./page3.html">Дубликаты госномеров</a>
+                </div>
+                <div class="tort">
+                    <a href="./page4.html">Истории выкупа</a>
+                </div>
+                <div class="besh">
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            О компании
+                        </a>
+                      
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Вакансии</a></li>
+                          <li><a class="dropdown-item" href="#">Команда</a></li>
+                          <li><a class="dropdown-item" href="#">Новости</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="olti">
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="yetti">
+                    <a href="#"><i class="fa-solid fa-user"></i> Личный кабинет</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="showcase">
+                <div class="chap">
+                    <h1>Аренда автомобиля с выкупом в Ставрополе<span class="text-info"> от 530 ₽ в сутки</span></h1>
+                    <p>Удобнее и выгоднее, чем копить на машину</p>
+                    <button class="btn btn-info text-light">Смотреть каталог авто</button>
+                </div>
+                <div class="ong">
+                    <img src="./assets/media/car pic.png" alt="car">
+                </div>
+            </div>
+            <div class="text">
+                <h3>Без кредита</h3>
+                <p>Оформив аренду авто с последующим выкупом, вы можете сразу же получить автомобиль в свое распоряжение, погашая его стоимость частями.</p>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <h5>Нужен только  и права</h5>
+                    <p>Не нужна справка с места работы и кредитная история</p>
+                </div>
+                <div class="box">
+                    <h5>0% комиссий</h5>
+                    <p>Выкуп авто в любой момент без комиссий</p>
+                </div>
+                <div class="box">
+                    <h5>Регулируйте сумму выплат</h5>
+                    <p>Сами выбираете сумму для выплат от 18 000 тысяч в месяц</p>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="oqish">
+        <div class="container">
+            <h3>Мы подходим вам, если:</h3>
+            <div class="comfortable">
+                <div>
+                    <p><i class="fa-solid fa-check"></i> Вы хотите приобрести авто уже сегодня</p>
+                    <p><i class="fa-solid fa-check"></i> Вы хотите экономить на ежемесячном платеже за свой автомобиль</p>
+                    <p><i class="fa-solid fa-check"></i> Хотите купить авто под такси</p>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-check"></i> Вам не одобряют кредит в банке</p>
+                    <p><i class="fa-solid fa-check"></i> Вам нужно приобрести несколько автомобилей на выгодных условиях</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="products">
+            <h3>Выкупать автомобиль с нами <span>удобно, быстро и выгоднее</span> чем в банке</h3>
+            <div class="qism">
+                <div>
+                    <p><span>95% наших клиентов</span> выкупают автомобиль</p>
+                </div>
+                <div>
+                    <p><span>11 месяцев</span> среднее время выкупа  в «Бери Рули»</p>
+                </div>
+            </div>
+            <div class="mahsulotlar">
+                <div class="mahsulot">
+                    <img src="./assets/media/img1.png" alt="img">
+                    <div>
+                        <h6>Нет фиксированной суммы взноса</h6>
+                        <p>Чтобы быстрее выкупить автомобиль — просто напишите об этом менеджеру</p>
+                    </div>
+                </div>
+                <div class="mahsulot">
+                    <img src="./assets/media/img2.png" alt="img">
+                    <div>
+                        <h6>Возвращаем деньги</h6>
+                        <p>Чтобы быстрее выкупить автомобиль — просто напишите об этом менеджеру</p>
+                    </div>
+                </div>
+                <div class="mahsulot">
+                    <img src="./assets/media/img3.png" alt="img">
+                    <div>
+                        <h6>Сами выбираете сумму для выплат</h6>
+                        <p>Чтобы быстрее выкупить автомобиль — просто напишите об этом менеджеру</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mahsulotlar">
+                <div class="mahsulot">
+                    <img src="./assets/media/img4.png" alt="img">
+                    <div>
+                        <h6>10 дней отсрочка платежа</h6>
+                        <p>Успеете поправить свои дела и внести платеж</p>
+                    </div>
+                </div>
+                <div class="mahsulot">
+                    <img src="./assets/media/img5.png" alt="img">
+                    <div>
+                        <h6>Дарим страховку ОСАГО на один год</h6>
+                    </div>
+                </div>
+                <div class="mahsulot">
+                    <img src="./assets/media/img6.png" alt="img">
+                    <div>
+                        <h6>Скидка 20% на выкуп</h6>
+                        <p>Всех последующих автомобилей</p>
+                    </div>
+                </div>
+            </div>
+            <h4>Для офомления понадобятся только:</h4>
+            <div class="oformitlar">
+                <div class="oformit">
+                    <img src="./assets/media/icon.png" alt="icon">
+                    <h6>Права</h6>
+                </div>
+                <div class="oformit">
+                    <img src="./assets/media/icon2.png" alt="icon">
+                    <h6>Паспорт</h6>
+                </div>
+                <div class="oformit">
+                    <img src="./assets/media/icon3.png" alt="icon">
+                    <h6>Первый взнос</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="probeg">
+            <div class="taraf">
+                <h3>Каталог автомобилей с пробегом</h3>
+                <button class="btn btn-primary text-light">Смотреть весь каталог</button>
+            </div>
+            <div class="cartalar">
+                <div class="carta">
+                    <img src="./assets/media/luxcar.png" alt="luxcar">
+                    <div class="pdn">
+                        <span>Без пробега</span>
+                        <h5>Ваз (Lada) Гранта седан Comfort 16 КЛ</h5>
+                        <p class="mrg">Год выпуска 2021</p>
+                        <div>
+                            <p>Аренда с выкупом</p>
+                            <p><b>1 300 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Рассрочка</p>
+                            <p><b>1 200 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Наличные</p>
+                            <p><b>1 100 руб/сутки</b></p>
+                        </div>
+                    </div>
+                    <a class="butt" href="#">Полные характеристики</a>
+                    <div class="chapda">
+                        <a class="nim" href="#">VIN-номера проверены</a><br>
+                        <a href="#">VIN-номера проверены</a>
+                    </div>
+                </div>
+                <div class="carta">
+                    <img src="./assets/media/luxcar.png" alt="luxcar">
+                    <div class="pdn">
+                        <span>Без пробега</span>
+                        <h5>Ваз (Lada) Гранта седан Comfort 16 КЛ</h5>
+                        <p class="mrg">Год выпуска 2021</p>
+                        <div>
+                            <p>Аренда с выкупом</p>
+                            <p><b>1 300 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Рассрочка</p>
+                            <p><b>1 200 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Наличные</p>
+                            <p><b>1 100 руб/сутки</b></p>
+                        </div>
+                    </div>
+                    <a class="butt" href="#">Полные характеристики</a>
+                    <div class="chapda">
+                        <a class="nim" href="#">VIN-номера проверены</a><br>
+                        <a href="#">VIN-номера проверены</a>
+                    </div>
+                </div>
+                <div class="carta">
+                    <img src="./assets/media/luxcar.png" alt="luxcar">
+                    <div class="pdn">
+                        <span>Без пробега</span>
+                        <h5>Ваз (Lada) Гранта седан Comfort 16 КЛ</h5>
+                        <p class="mrg">Год выпуска 2021</p>
+                        <div>
+                            <p>Аренда с выкупом</p>
+                            <p><b>1 300 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Рассрочка</p>
+                            <p><b>1 200 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Наличные</p>
+                            <p><b>1 100 руб/сутки</b></p>
+                        </div>
+                    </div>
+                    <a class="butt" href="#">Полные характеристики</a>
+                    <div class="chapda">
+                        <a class="nim" href="#">VIN-номера проверены</a><br>
+                        <a href="#">VIN-номера проверены</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="oqroq">
+        <div class="container">
+            <div class="txt">
+                <h3>Получить автомобиль легко <span>всего 4 шага и 30 минут времени</span></h3>
+                <p>Срок выкупа — от 3 месяцев до 2 лет</p>
+            </div>
+            <div class="qadamlar">
+                <div class="qadam">
+                    <h5>1. Шаг</h5>
+                    <p><b>Выбирайте</b> автомобиль на сайте или сразу приезжайте в наш офис. Уточнить время можно по телефону</p>
+                    <h4>8 800 456</h4>
+                </div>
+                <div class="qadam">
+                    <h5>2. Шаг</h5>
+                    <p><b>Вместе </b> рассчитаем первый взнос и удобный ежемесячный платеж. Сумму платежа потом можно изменить. Первый взнос можно внести сразу или в рассрочку в течение 10 дней</p>
+                </div>
+                <div class="qadam">
+                    <h5>3. Шаг</h5>
+                    <p><b>Заключаем</b> договор и создаем для вас личный кабинет на сайте, где будет отражаться вся история взносов</p>
+                </div>
+                <div class="qadam">
+                    <h5>4. Шаг</h5>
+                    <p><b>Передаем</b> вам ключи от автомобиля. У вас есть 24 часа на тест-драйв — чтобы убедиться, что именно этот автомобиль вам подходит</p>
+                </div>
+            </div>
+            <button class="btn">Заказать звонок</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="probeg">
+            <div class="taraf">
+                <h3>Каталог автомобилей без пробега</h3>
+                <button class="btn btn-primary text-light">Смотреть весь каталог</button>
+            </div>
+            <div class="cartalar">
+                <div class="carta">
+                    <img src="./assets/media/luxcar.png" alt="luxcar">
+                    <div class="pdn">
+                        <span>Без пробега</span>
+                        <h5>Ваз (Lada) Гранта седан Comfort 16 КЛ</h5>
+                        <p class="mrg">Год выпуска 2021</p>
+                        <div>
+                            <p>Аренда с выкупом</p>
+                            <p><b>1 300 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Рассрочка</p>
+                            <p><b>1 200 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Наличные</p>
+                            <p><b>1 100 руб/сутки</b></p>
+                        </div>
+                    </div>
+                    <a class="butt" href="#">Полные характеристики</a>
+                    <div class="chapda">
+                        <a class="nim" href="#">VIN-номера проверены</a><br>
+                        <a href="#">VIN-номера проверены</a>
+                    </div>
+                </div>
+                <div class="carta">
+                    <img src="./assets/media/luxcar.png" alt="luxcar">
+                    <div class="pdn">
+                        <span>Без пробега</span>
+                        <h5>Ваз (Lada) Гранта седан Comfort 16 КЛ</h5>
+                        <p class="mrg">Год выпуска 2021</p>
+                        <div>
+                            <p>Аренда с выкупом</p>
+                            <p><b>1 300 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Рассрочка</p>
+                            <p><b>1 200 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Наличные</p>
+                            <p><b>1 100 руб/сутки</b></p>
+                        </div>
+                    </div>
+                    <a class="butt" href="#">Полные характеристики</a>
+                    <div class="chapda">
+                        <a class="nim" href="#">VIN-номера проверены</a><br>
+                        <a href="#">VIN-номера проверены</a>
+                    </div>
+                </div>
+                <div class="carta">
+                    <img src="./assets/media/luxcar.png" alt="luxcar">
+                    <div class="pdn">
+                        <span>Без пробега</span>
+                        <h5>Ваз (Lada) Гранта седан Comfort 16 КЛ</h5>
+                        <p class="mrg">Год выпуска 2021</p>
+                        <div>
+                            <p>Аренда с выкупом</p>
+                            <p><b>1 300 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Рассрочка</p>
+                            <p><b>1 200 руб/сутки</b></p>
+                        </div>
+                        <div>
+                            <p>Наличные</p>
+                            <p><b>1 100 руб/сутки</b></p>
+                        </div>
+                    </div>
+                    <a class="butt" href="#">Полные характеристики</a>
+                    <div class="chapda">
+                        <a class="nim" href="#">VIN-номера проверены</a><br>
+                        <a href="#">VIN-номера проверены</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="arenda">
+            <h3><span>Аренда с выкупом</span> автомобиля с нами — это:</h3>
+            <div class="quticha">
+                <div>
+                    <p><i class="fa-solid fa-check"></i> Всегда не менее <span>25 автобомобилей на ваш выбор</span></p>
+                    <p><i class="fa-solid fa-check"></i><span> Доступ в личный кабинет</span> с историей платежей и прогрессом выплат</p>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-check"></i> <span>Официальные договор</span> и прозрачные условия</p>
+                    <p><i class="fa-solid fa-check"></i><span>Персональный менеджер</span>, который всегда поможет</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <div class="color">
+            <div class="container">
+                <div class="voprosi">
+                    <div class="opros">
+                        <h4>Остались вопросы? <span>Свяжитесь с нами</span></h4>
+                        <p>Если вы столкнулись с трудностями при работе с Бери Рули, у Вас есть какие-то замечания или предложения — позвоните. </p>
+                        <b>Прием звонков с 09:00 до 18:00</b><br>
+                        <a href="tel:"><span>+7 (962) 495 55 54</span></a>
+                    </div>
+                    <div class="submit">
+                        <input class="inp" type="text" placeholder="Ваше имя"><br>
+                        <input class="inp" type="number" placeholder="Номер телефона"><br>
+                        <input class="inp" type="text" placeholder="Ваш вопрос"><br>
+                        <input type="checkbox" id="bos">
+                        <label for="bos">Согласие на обработку персональных данных</label>
+                        <button class="btn">Задать вопрос</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="oxir">
+                <div class="linklar">
+                    <div class="links">
+                        <a href="#"><span>Ставрополь:</span> ул. Доваторцев, 21</a><br>
+                        <a href="#">Главный офис: <span>г. Пятигорск ул.Бунимовича д.38</span></a><br>
+                        <a href="#">График работы:  <span>Пн-Сб с 9:00 до 18:00</span></a><br>
+                        <a href="mailto:">E-mail: <span>avto@beri-ruli.ru</span></a><br>
+                        <a class="big" href="tel:">+7 (962) 495 55 54</a>
+                    </div>
+                    <div class="linktwo">
+                        <h6>О “Бери рули”</h6>
+                        <a href="#">Команда</a><br>
+                        <a href="#">Вакансии</a><br>
+                        <a href="#">Новости</a><br>
+                        <a href="#">Вакансии</a><br>
+                        <h6>Акции и спецпредложения</h6>
+                    </div>
+                    <div class="linkthree">
+                        <a href="#">Каталог авто</a><br>
+                        <a href="#">Аренда с выкупом</a><br>
+                        <a href="#">Истории выкупа</a><br>
+                        <a href="#">Дубликаты гос.номеров</a><br>
+                        <a href="#">Контакты</a>
+                    </div>
+                </div>
+                <div class="yana">
+                    <div class="icons">
+                        <a href="https://instagram.com/bobur_jan_05" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        <a href="https://google.com" target="_blank"><i class="fa-brands fa-vk fa-2x"></i></a>
+                        <a href="https://t.me/Ochilov_Bobur" target="_blank"><i class="fa-brands fa-telegram fa-2x"></i></a>
+                        <a href="https://google.com" target="_blank"><i class="fa-brands fa-vk fa-2x"></i></a>
+                    </div>
+                    <div>
+                        <a href="#">Пользовательское соглашение</a>
+                    </div>
+                    <div>
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                    <div>
+                        <a href="#">Реквизиты компании</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rangi">
+            <div class="container">
+                <div class="end">
+                    <p>© 2010-2021 ООО «Бери Рули»</p>
+                    <p>Разработка сайта <a href="https://t.me/Bakhromovich_05">Ochilov</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

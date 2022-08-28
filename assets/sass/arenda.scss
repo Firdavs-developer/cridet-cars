@@ -1,0 +1,37 @@
+.arenda{
+    margin-top: 20px;
+
+    span{
+        color: #0088CF;
+    }
+
+    .quticha{
+        display: flex;
+        justify-content: left;
+        column-gap: 20px;
+        background: #F5F5F9;
+        border: 1px solid #0088CF;
+        padding: 20px;
+        border-radius: 5px;
+
+        i{
+            color: #0088CF;
+            border: 1px solid #0088CF;
+            padding: 7px 8px;
+            border-radius: 50%;
+            margin: 10px 10px 10px 0;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .arenda{
+        h3{
+            text-align: center;
+        }
+
+        .quticha{
+            flex-direction: column;
+        }
+    }
+}

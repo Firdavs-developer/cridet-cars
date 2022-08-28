@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+a{color: inherit !important; text-decoration: none !important;}
+img {width: 100%;}
+
+p , h1, h2, h3, h4, h5 , ul ,li {
+    margin: 0;
+    padding: 0;
+    color: inherit !important;
+}
+input{outline: none;}
+// color
+$black : black;
+$white : white;
+$blue : #0088CF;
+$light : #F5F5F9;
+$silver : silver;
+$gray : gray;
+$yellow : #FCEC4F;
+
+@mixin container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@mixin btn {
+    margin: 50px 0;
+    padding: 15px 30px;
+    background: $blue;
+    color: $white !important;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: $black;
+    border: 2px solid $blue;
+    transition: .3s;
+    cursor: pointer;
+
+    &:hover {
+        background: none;
+        color: $blue !important;
+    }
+}
+
+@mixin title {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+@mixin miniTitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+}

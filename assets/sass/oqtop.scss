@@ -1,0 +1,79 @@
+.oqtop{
+    background-color: #F5F5F9;
+    padding: 30px;
+    .whit{
+        background: url('../media/cars.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        width: 100%;
+        span{
+            color: #0088CF;
+        }
+
+        &__txt{
+            width: 750px;
+
+            h3{
+                font-weight: 700;
+            }
+
+            h5{
+                font-weight: 700;
+            }
+
+            .rang{
+                color: #989898;
+            }
+        }
+
+        &__boxes{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 20px;
+            .box{
+                width: 180px;
+                height: 160px;
+                border: 1px solid #0088CF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                text-align: center;
+
+                p{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    .oqtop{
+        .whit{
+            
+            &__txt{
+                width: 90%;
+                text-align: center;
+                margin: 0 auto;
+            }
+
+            &__boxes{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width:450px) {
+    .oqtop{
+        .whit{
+
+            &__txt{
+                width: 100%;
+            }
+        }
+    }
+}

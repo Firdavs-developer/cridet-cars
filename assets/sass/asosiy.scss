@@ -1,0 +1,104 @@
+.asosiy{
+    margin-top: 30px;
+    width: 100%;
+    
+    .arenda{
+        padding: 30px;
+        background: linear-gradient(to right bottom, #0000096a, #00000957), url('../media/maydacar.png');
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+
+        div{
+            width: 450px;
+        }
+        
+        .qor{
+            background-color: #0088CF;
+            padding: 15px;
+        }
+
+        h3, p{
+            margin: 0;
+        }
+    }
+
+    &__text{
+        width: 700px;
+        margin-top: 40px;
+
+        span{
+            color: #0088CF;
+        }
+
+        h3{
+            font-size: 25px;
+        }
+    }
+
+    &__qulayliklar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .qulay{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            column-gap: 8px;
+
+            img{
+                width: 35px;
+            }
+        }
+    }
+
+    .qulay2{
+        margin: 20px 0;
+    }
+}
+
+@media (max-width:768px) {
+
+    .asosiy{
+        .arenda{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            div{
+                width: 100%;
+            }
+        }
+
+        &__text{
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width:625px) {
+    .asosiy{
+        &__text{
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        &__qulayliklar{
+            margin: 0 auto;
+
+            .qulay{
+                margin: 0 auto;
+
+                h5{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+.products{
+    h3{
+        margin: 20px 0;
+    }
+
+    .qism{
+        background: #F5F5F9;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: 1px solid #0088CF;
+        border-radius: 5px;
+        column-gap: 30px;
+
+        p{
+            margin: 0;
+            padding: 10px;
+
+            span{
+                color: #0088CF;
+            }
+        }
+    }
+
+    .mahsulotlar{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        .mahsulot{
+            img{
+                width: 30px;
+                height: 30px;
+            }
+
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            column-gap: 20px;
+            
+
+            div{
+                p{
+                    margin: 0;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    h4{
+        margin: 20px 0;
+    }
+
+    .oformitlar{
+        display: flex;
+        justify-content: space-between;
+        .oformit{
+            width: 250px;
+            display: flex;
+            align-items: center;
+            background-color: #242321;
+            color: #fff;
+            border-radius: 5px;
+
+            img{
+                width: 80px;
+            }
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .products{
+        .mahsulotlar{
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .products{
+        .oformitlar{
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .products{
+        h3{
+            text-align: center;
+        }
+
+        h4{
+            text-align: center;
+        }
+
+        .mahsulotlar{
+            justify-content: center;
+        }
+    }
+}

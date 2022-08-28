@@ -1,0 +1,37 @@
+.end{
+    .komanda{
+        width: 900px;
+    }
+
+    .heads{
+        display: flex;
+        justify-content: space-between;
+        .head{
+            width: 280px;
+
+            &__text{
+
+                h4{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .end{
+        .komanda{
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .heads{
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            text-align: center;
+        }
+    }
+}

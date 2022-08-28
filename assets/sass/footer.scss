@@ -1,0 +1,189 @@
+.footer{
+    margin-top: 25px;
+
+    span{
+        color: #0088CF;
+    }
+
+    .color{
+        background-color: #F5F5F9;
+        padding: 25px;
+    }
+
+    .voprosi{
+        display: flex;
+        justify-content: center;
+        column-gap: 50px;
+        flex-wrap: wrap;
+
+        .opros{
+            width: 300px;
+
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+
+        .submit{
+            .inp{
+                width: 300px;
+                margin: 10px 0;
+            }
+
+            input{
+                padding: 7px;
+            }
+
+            label{
+                width: 190px;
+            }
+
+            button{
+                color: #fff;
+                background: #0088CF;
+            }
+        }
+    }
+
+    .oxir{
+        .linklar{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+    
+    
+            a{
+                text-decoration: none;
+            }
+            .links{
+                
+        
+                a{
+                    text-decoration: none;
+                }
+    
+                .big{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+    
+            .linktwo{
+                h6{
+                    margin: 0;
+                }
+            }
+    
+            .linkthree{
+                a{
+                    font-weight: 600;   
+                }
+            }
+        }
+
+        .yana{
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+
+            .icons{
+                a{
+                    border-radius: 5px;
+                    background-color: #F5F5F9;
+                    display: inline-block;
+
+
+                    i{
+                        padding: 8px 9px;
+                    }
+                
+                }
+            }
+        }
+    }
+
+    .rangi{
+        background-color: #242321;
+
+        .end{
+            width: 100%;
+            color: #FCEC4F;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            p{
+                margin: 10px 0;
+            }
+    
+            a{
+                color: #FCEC4F;
+            }
+        }
+    }
+
+    .top{
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        a{
+            display: inline-block;
+
+            i{
+                padding: 18px 19px;
+                background-color: #0088CF;
+                color: #fff;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .footer{
+        .oxir{
+            .linklar{
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+        }
+
+        .yana{
+            flex-wrap: wrap;
+        }
+
+        .rangi{
+            .end{
+                text-align: center;
+                margin: 0 auto;
+                
+                p{
+                    text-align: center;
+                    margin: 3px auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .footer{
+        .voprosi{
+            .submit{
+                .inp{
+                    width: 90%;
+                }
+
+                label{
+                    width: 90%;
+                }
+
+                button{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}

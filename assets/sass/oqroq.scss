@@ -1,0 +1,42 @@
+.oqroq{
+    background: #F5F5F9;
+    margin-top: 20px;
+
+    .txt{
+        width: 50%;
+
+        span{
+            color: #0088CF;
+        }
+    }
+
+    .qadamlar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .qadam{
+            width: 260px;
+        }
+    }
+
+    button{
+        background-color: #0088CF;
+        color: #fff;
+    }
+}
+
+@media (max-width:768px) {
+    .oqroq{
+        text-align: center;
+        .txt{
+            width: 90%;
+            h3{
+                text-align: center;
+            }
+        }
+
+        .qadamlar{
+            justify-content: center;
+        }
+    }
+}
